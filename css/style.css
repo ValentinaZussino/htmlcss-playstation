@@ -18,6 +18,13 @@ img { max-width: 100%;}
 .vz_bg-lightgray { background-color: var(--lightgray);}
 .vz_bg-deepblue { background-color: var(--deepblue);}
 .vz_bg-bluesky { background-color: var(--sky);}
+.vz_btn-red {
+    background-color: var(--btnred);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 7px 12px;
+}
 /* HEADER */
 header div.bg-black img { width: 90px;}
 #hero1 div.vz_jumbo {
