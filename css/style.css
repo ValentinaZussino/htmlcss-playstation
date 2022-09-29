@@ -34,3 +34,10 @@ header div.bg-black img { width: 90px;}
     width: 100%;
     min-height: 60vh;
 }
+#hero2 div.vz_jumbo {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 60vh;
+}
