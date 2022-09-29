@@ -1,6 +1,5 @@
 :root {
     /* verificare presenze in bootstrap */
-    --bluetxt: rgb(20, 125, 210);
     --lightgrtxt: rgb(125, 125, 125);
     --graytxt: rgb(54, 54, 54);
     --btnred: rgb(205, 61, 15);
@@ -25,6 +24,7 @@ img { max-width: 100%;}
     border-radius: 20px;
     padding: 7px 12px;
 }
+.vz_gray { color: var(--graytxt);}
 /* HEADER */
 header div.bg-black img { width: 90px;}
 #hero1 div.vz_jumbo {
