@@ -1,0 +1,19 @@
+:root {
+    /* verificare presenze in bootstrap */
+    --bluetxt: rgb(20, 125, 210);
+    --lightgrtxt: rgb(125, 125, 125);
+    --graytxt: rgb(54, 54, 54);
+    --btnred: rgb(205, 61, 15);
+    --btnblue: rgb(45, 100, 230);
+    --darkgray: rgb(31, 31, 31);
+    --lightgray: rgb(190, 188, 187);
+    --deepblue: rgb(22, 28, 59);
+    --sky: rgb(0, 67, 156);  
+}
+body { font-family:font-family: 'Roboto', sans-serif;
+}
+/* general */
+.vz_bg-darkgray {background-color: var(--darkgray);}
+.vz_bg-lightgray { background-color: var(--lightgray);}
+.vz_bg-deepblue { background-color: var(--deepblue);}
+.vz_bg-bluesky { background-color: var(--sky);}
