@@ -10,10 +10,13 @@
     --deepblue: rgb(22, 28, 59);
     --sky: rgb(0, 67, 156);  
 }
-body { font-family:font-family: 'Roboto', sans-serif;
+body { font-family: 'Roboto', sans-serif;
 }
+img { max-width: 100%;}
 /* general */
 .vz_bg-darkgray {background-color: var(--darkgray);}
 .vz_bg-lightgray { background-color: var(--lightgray);}
 .vz_bg-deepblue { background-color: var(--deepblue);}
 .vz_bg-bluesky { background-color: var(--sky);}
+/* HEADER */
+header div.bg-black img { width: 8%;}
