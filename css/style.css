@@ -1,5 +1,4 @@
 :root {
-    /* verificare presenze in bootstrap */
     --lightgrtxt: rgb(125, 125, 125);
     --graytxt: rgb(54, 54, 54);
     --btnred: rgb(205, 61, 15);
@@ -43,3 +42,10 @@ div.bg-black img { width: 90px;}
 }
 /* FOOTER */
 .vz_country img{ width: 25px; padding-right: 0.5rem;}
+/* RESPONSIVE */
+@media screen and (min-width: 768px){
+    #social .vz_social-container {
+        width: 70%!important;
+        margin-left:15%;
+    }
+}
