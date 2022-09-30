@@ -4,7 +4,8 @@
     --darkgray: rgb(31, 31, 31);
     --lightgray: rgb(190, 188, 187);
     --deepblue: rgb(22, 28, 59);
-    --sky: rgb(0, 67, 156);  
+    --sky: rgb(0, 67, 156); 
+    --azure: rgb(6, 117, 207); 
 }
 body { font-family: 'Roboto', sans-serif;
 }
@@ -23,10 +24,10 @@ img { max-width: 100%;}
     padding: 7px 12px;
 }
 .vz_btn-red:hover { outline: 3px solid var(--btnred);}
-.vz_btn-primary:hover { outline: 3px solid rgb(6, 117, 207);}
+.vz_btn-primary:hover { outline: 3px solid var(--azure);}
 .vz_btn-white:hover { outline: 3px solid white; opacity: 0.8;}
 .vz_btn-red:hover, .vz_btn-primary:hover, .vz_btn-white:hover, .vz_outblue { outline-offset: 3px;}
-.vz_outblue { outline: 3px solid rgb(6, 117, 207); cursor: pointer;}
+.vz_outblue { outline: 3px solid var(--azure); cursor: pointer;}
 .vz_opacity:hover { opacity: 0.8; cursor: pointer;}
 .vz_transform:hover { transform: translate(0px, -5px);}
 /* HEADER */
@@ -45,6 +46,8 @@ div.bg-black img { width: 90px;}
     width: 100%;
     min-height: 60vh;
 }
+/* MAIN */
+#play5 div.vz_opacity:hover { border-bottom: 1px solid var(--azure);}
 /* FOOTER */
 .vz_country img{ width: 25px; padding-right: 0.5rem;}
 /* RESPONSIVE */
