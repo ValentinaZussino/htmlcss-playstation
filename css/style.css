@@ -41,6 +41,7 @@ div.bg-black img { width: 90px;}
     vertical-align: middle;
     margin-left: 5px;
 }
+.vz_dropdown-toggle:hover::after { background-image: url(../img/chevron-down-solid-hover.svg);}
 #hero1 div.vz_jumbo {
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
