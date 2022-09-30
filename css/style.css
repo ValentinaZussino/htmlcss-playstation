@@ -23,6 +23,7 @@ img { max-width: 100%;}
     border-radius: 20px;
     padding: 7px 12px;
 }
+.vz_btn-red:hover { outline: 3px solid var(--btnred); outline-offset: 3px;}
 .vz_gray { color: var(--graytxt);}
 /* HEADER */
 div.bg-black img { width: 90px;}
