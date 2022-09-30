@@ -47,7 +47,7 @@ div.bg-black img { width: 90px;}
     min-height: 60vh;
 }
 /* MAIN */
-#play5 div.vz_opacity:hover { border-bottom: 1px solid var(--azure);}
+#play5 div.vz_opacity:hover { border-bottom: 1px solid var(--azure)!important;}
 /* FOOTER */
 .vz_country img{ width: 25px; padding-right: 0.5rem;}
 /* RESPONSIVE */
