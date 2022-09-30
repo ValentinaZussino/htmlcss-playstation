@@ -33,15 +33,18 @@ img { max-width: 100%;}
 div.bg-black img { width: 90px;}
 .vz_dropdown-toggle::after {
     content: '';
-    background-image: url(../img/chevron-down-solid.svg);
-    background-size: 12px 12px;
     width: 12px;
     height: 12px;
-    display: inline-block;
+    background-image: url(../img/chevron-down-solid.svg);
+    background-size: 12px 12px;
     vertical-align: middle;
+    display: inline-block;
     margin-left: 5px;
+    transform: rotateY(180deg);
+    transition: 0.5s;
 }
-.vz_dropdown-toggle:hover::after { background-image: url(../img/chevron-down-solid-hover.svg);}
+.vz_dropdown-toggle:hover::after { background-image: url(../img/chevron-down-solid-hover.svg);
+    transform: rotateZ(180deg);}
 #hero1 div.vz_jumbo {
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
