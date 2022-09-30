@@ -9,7 +9,7 @@
 }
 body { font-family: 'Roboto', sans-serif;}
 img { max-width: 100%;}
-/* general */
+/* GENERAL */
 .vz_gray { color: var(--graytxt);}
 .vz_bg-darkgray {background-color: var(--darkgray);}
 .vz_bg-lightgray { background-color: var(--lightgray);}
@@ -45,21 +45,20 @@ div.bg-black img { width: 90px;}
 }
 .vz_dropdown-toggle:hover::after { background-image: url(../img/chevron-down-solid-hover.svg);
     transform: rotateZ(180deg);}
-#hero1 div.vz_jumbo {
-    background-image: url(../img/jumbo-bg.png);
+/* MAIN */
+div.vz_jumbo {
+    
     background-size: cover;
     background-position: center;
     width: 100%;
     min-height: 60vh;
+}
+#hero1 div.vz_jumbo {
+    background-image: url(../img/jumbo-bg.png);
 }
 #hero2 div.vz_jumbo {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    min-height: 60vh;
 }
-/* MAIN */
 #play5 div.vz_opacity:hover { border-bottom: 1px solid var(--azure)!important;}
 /* FOOTER */
 .vz_country img{ width: 25px; padding-right: 0.5rem;}
