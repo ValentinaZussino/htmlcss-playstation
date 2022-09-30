@@ -47,17 +47,14 @@ div.bg-black img { width: 90px;}
     transform: rotateZ(180deg);}
 /* MAIN */
 div.vz_jumbo {
-    
     background-size: cover;
     background-position: center;
     width: 100%;
     min-height: 60vh;
 }
-#hero1 div.vz_jumbo {
-    background-image: url(../img/jumbo-bg.png);
+#hero1 div.vz_jumbo { background-image: url(../img/jumbo-bg.png);
 }
-#hero2 div.vz_jumbo {
-    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+#hero2 div.vz_jumbo { background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 #play5 div.vz_opacity:hover { border-bottom: 1px solid var(--azure)!important;}
 /* FOOTER */
