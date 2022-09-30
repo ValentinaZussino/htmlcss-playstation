@@ -26,7 +26,7 @@ img { max-width: 100%;}
 }
 .vz_gray { color: var(--graytxt);}
 /* HEADER */
-header div.bg-black img { width: 90px;}
+div.bg-black img { width: 90px;}
 #hero1 div.vz_jumbo {
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
@@ -41,3 +41,5 @@ header div.bg-black img { width: 90px;}
     width: 100%;
     min-height: 60vh;
 }
+/* FOOTER */
+.vz_country img{ width: 25px; padding-right: 0.5rem;}
