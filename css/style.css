@@ -1,8 +1,6 @@
 :root {
-    --lightgrtxt: rgb(125, 125, 125);
     --graytxt: rgb(54, 54, 54);
     --btnred: rgb(205, 61, 15);
-    --btnblue: rgb(45, 100, 230);
     --darkgray: rgb(31, 31, 31);
     --lightgray: rgb(190, 188, 187);
     --deepblue: rgb(22, 28, 59);
@@ -23,7 +21,10 @@ img { max-width: 100%;}
     border-radius: 20px;
     padding: 7px 12px;
 }
-.vz_btn-red:hover { outline: 3px solid var(--btnred); outline-offset: 3px;}
+.vz_btn-red:hover, .vz_btn-primary:hover, .vz_btn-white:hover { outline-offset: 3px;}
+.vz_btn-red:hover { outline: 3px solid var(--btnred);}
+.vz_btn-primary:hover { outline: 3px solid rgb(6, 117, 207);}
+.vz_btn-white:hover { outline: 3px solid white; opacity: 0.8;}
 .vz_gray { color: var(--graytxt);}
 /* HEADER */
 div.bg-black img { width: 90px;}
